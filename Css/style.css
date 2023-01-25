@@ -217,6 +217,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(6, 4fr);
   gap: 10px;
+  align-items: center !important;
 }
 
 @media only screen and (max-width: 320px) {
@@ -252,4 +253,13 @@ hr {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.select2-container--default .select2-selection--single {
+  border: 0px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  padding: 10px 5px;
+  background-color: white;
+  border: 1px solid rgb(202, 198, 198);
 }
