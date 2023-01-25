@@ -1,0 +1,138 @@
+.protinidhi a {
+  color: #dc3545;
+  line-height: 35px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.protinidhi a:hover {
+  color: #333366;
+}
+
+.files input {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  padding: 120px 0px 85px 35%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+}
+.files input:focus {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  border: 1px solid #92b0b3;
+}
+.files {
+  position: relative;
+}
+.files:after {
+  pointer-events: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 50px;
+  right: 0;
+  height: 56px;
+  content: "";
+  background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.color input {
+  background-color: #f1f1f1;
+}
+.files:before {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 57px;
+  content: " or drag it here. ";
+  display: block;
+  margin: 0 auto;
+  color: #2ea591;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  margin-left: -90px;
+}
+
+#phone {
+  width: 635px;
+}
+
+@media only screen and (max-width: 320px) {
+  #phone {
+    width: 297px;
+  }
+  .files:before {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  #phone {
+    width: 351px;
+  }
+
+  .files:before {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  #phone {
+    width: 400px;
+  }
+  .files:before {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  #phone {
+    width: 335px;
+  }
+
+  .files:before {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  #phone {
+    width: 335px;
+  }
+
+  .files:before {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1024px) {
+  #phone {
+    width: 450px;
+  }
+  .files:before {
+    margin-left: -50px;
+  }
+}
+
+/* @media only screen and (min-width: 901px) and (max-width: 1024px) {
+  #phone {
+    width: 335px;
+  }
+  .files:before {
+    margin-left: -50px;
+  }
+} */
